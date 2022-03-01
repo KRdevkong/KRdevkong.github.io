@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://krdevkong.github.io/tag/markdown/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://krdevkong.github.io/" rel="alternate" type="text/html" />
+  <updated>2022-03-01T16:21:08+09:00</updated>
+  <id>https://krdevkong.github.io/tag/markdown/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">KRdevkong’s TIL | </title>
+  
+
+  
+    <subtitle>개발 공부 발자취</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Markdown 기본 정리</title>
+      <link href="https://krdevkong.github.io/markdown-basic-1" rel="alternate" type="text/html" title="Markdown 기본 정리" />
+      <published>2022-02-27T16:40:00+09:00</published>
+      <updated>2022-02-27T16:40:00+09:00</updated>
+      <id>https://krdevkong.github.io/markdown-basic-1</id>
+      <content type="html" xml:base="https://krdevkong.github.io/markdown-basic-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;markdown 목차입니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./markdown-basic-1&quot;&gt;markdown - 기본 1&lt;/a&gt;&lt;/li&gt;
+    &lt;!--&lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;마크다운-문법-정리&quot;&gt;마크다운 문법 정리&lt;/h1&gt;
+
+&lt;h2 id=&quot;헤더-header&quot;&gt;헤더 (Header)&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# 헤더크기 (h1)
+## 헤더크기 (h2)
+### 헤더크기 (h3)
+#### 헤더크기 (h4)
+##### 헤더크기 (h5)
+###### 헤더크기 (h6)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;헤더크기-h1&quot;&gt;헤더크기 (h1)&lt;/h1&gt;
+&lt;h2 id=&quot;헤더크기-h2&quot;&gt;헤더크기 (h2)&lt;/h2&gt;
+&lt;h3 id=&quot;헤더크기-h3&quot;&gt;헤더크기 (h3)&lt;/h3&gt;
+&lt;h4 id=&quot;헤더크기-h4&quot;&gt;헤더크기 (h4)&lt;/h4&gt;
+&lt;h5 id=&quot;헤더크기-h5&quot;&gt;헤더크기 (h5)&lt;/h5&gt;
+&lt;h6 id=&quot;헤더크기-h6&quot;&gt;헤더크기 (h6)&lt;/h6&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;목록-list&quot;&gt;목록 (List)&lt;/h2&gt;
+
+&lt;pre&gt;
+Unordered
+* Item 1
+* Item 2
+    * Item 2a
+    * Item 2b
+
+Ordred
+1. Item 1
+2. Item 2
+3. Item 3
+   1. Item 3a
+   2. Item 3b
+&lt;/pre&gt;
+&lt;p&gt;Unordered&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2
+    &lt;ul&gt;
+      &lt;li&gt;Item 2a&lt;/li&gt;
+      &lt;li&gt;Item 2b&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ordred&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+  &lt;li&gt;Item 3
+    &lt;ol&gt;
+      &lt;li&gt;Item 3a&lt;/li&gt;
+      &lt;li&gt;Item 3b&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;가로줄&quot;&gt;가로줄&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;***
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;텍스트-강조&quot;&gt;텍스트 강조&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;**굵게**
+
+*기울임*
+
+***굵은 기울임***
+
+~~취소선~~
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;굵게&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;기울임&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;굵은 기울임&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;취소선&lt;/del&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;인용&quot;&gt;인용&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; 인용문 1
+&amp;gt;&amp;gt; 인용문 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;인용문 1&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;인용문 2&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;소스-코드&quot;&gt;소스 코드&lt;/h2&gt;
+
+&lt;pre&gt;
+텍스트 사이에 넣는 `소스코드` 는 이렇게
+
+&apos;&apos;&apos;
+소스코드를 여러줄 작성하려면
+이렇게
+&apos;&apos;&apos;
+&lt;/pre&gt;
+&lt;p&gt;텍스트 사이에 넣는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;소스코드&lt;/code&gt; 는 이렇게&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;소스코드를 여러줄 작성하려면
+이렇게
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;링크&quot;&gt;링크&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+1. &amp;lt;링크주소&amp;gt;
+2. [링크텍스트](링크주소)
+3. [링크텍스트](링크주소,&quot;부가설명&quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;링크주소&gt;
+&lt;/링크주소&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;링크주소&quot;&gt;링크텍스트&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;링크주소,&amp;quot;부가설명&amp;quot;&quot;&gt;링크텍스트&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;이미지&quot;&gt;이미지&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![대체 텍스트](이미지파일 경로)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnxjL_J7KhNPla6YCFGyISn5Qbbug7nTFhUA&amp;amp;usqp=CAU&quot; alt=&quot;우주고양이 사진&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;테이블&quot;&gt;테이블&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;First Header | Second Header
+-------------|---------------
+Contents cell 1 | Contents cell 2
+Contents column 1 | Contents column 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;First Header | Second Header
+————-|—————
+Contents cell 1 | Contents cell 2
+Contents column 1 | Contents column 2&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;체크박스&quot;&gt;체크박스&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- [x] 체크 O
+- [ ] 체크 X
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;체크 O&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;체크 X&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>KRdevkong</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="markdown" />
+      
+
+      
+        <summary type="html">markdown 목차입니다. markdown - 기본 1</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

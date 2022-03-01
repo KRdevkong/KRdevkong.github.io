@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>개발 공부 발자취</description>
+    <link>
+    https://KRdevkong.github.io</link>
+    
+      
+      <item>
+        <title>Markdown 기본 정리</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;markdown 목차입니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./markdown-basic-1&quot;&gt;markdown - 기본 1&lt;/a&gt;&lt;/li&gt;
+    &lt;!--&lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;--&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 27 Feb 2022 16:40:00 +0900</pubDate>
+        <link>
+        https://KRdevkong.github.io/markdown-basic-1</link>
+        <guid isPermaLink="true">https://KRdevkong.github.io/markdown-basic-1</guid>
+      </item>
+      
+    
+  </channel>
+</rss>
